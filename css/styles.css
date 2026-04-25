@@ -1,17 +1,18 @@
 body {
-    background: #ddd;
+    background: #121212;
     font-family: Arial, sans-serif;
 }
 
 .container-box {
-    background: white;
-    border: 2px solid black;
+    background: #2f2f2f;
+    border: 2px solid #444;
     margin-top: 30px;
     padding: 0;
+    color: #f1f1f1;
 }
 
 .header {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #444;
     padding: 20px;
 }
 
@@ -20,10 +21,11 @@ body {
     height: 130px;
     border-radius: 50%;
     border: 3px solid #00bfff;
+    object-fit: cover;
 }
 
 .left {
-    border-right: 2px solid black;
+    border-right: 2px solid #444;
     padding: 20px;
 }
 
@@ -32,7 +34,7 @@ body {
 }
 
 .footer {
-    border-top: 2px solid black;
+    border-top: 2px solid #444;
     padding: 15px;
     text-align: center;
 }
