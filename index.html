@@ -5,93 +5,76 @@
 <title>CV</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
 
-<style>
-body {
-    background: #eee;
-}
-
-.container-box {
-    background: white;
-    border: 2px solid black;
-    margin-top: 30px;
-}
-
-.foto {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #00bfff;
-}
-
-.section-title {
-    margin-top: 20px;
-    font-weight: bold;
-}
-</style>
 </head>
 
 <body>
 
 <div class="container">
-    <div class="container-box p-4">
+<div class="container-box">
 
-        <div class="row align-items-center border-bottom pb-3">
-            <div class="col-md-2 text-center">
-                <img src="foto.jpg" class="foto">
-            </div>
-
-            <div class="col-md-10">
-                <h2>Nombre Completo</h2>
-                <p>Título Profesional</p>
-            </div>
+    <div class="row header align-items-center">
+        <div class="col-3 text-center">
+            <img src="assets/foto.jpg" class="foto">
         </div>
-        
-        <div class="row">
 
-            <div class="col-md-4 border-end p-3">
-                <div class="section-title">Tecnologías</div>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-
-                <div class="section-title">Cursos</div>
-                <ul>
-                    <li>Curso 1</li>
-                    <li>Curso 2</li>
-                </ul>
-
-                <div class="section-title">Certificaciones</div>
-                <ul>
-                    <li>Certificación 1</li>
-                </ul>
-            </div>
-
-            <div class="col-md-8 p-3">
-                <div class="section-title">Antecedentes Académicos</div>
-                <ul>
-                    <li>Estudio 1</li>
-                    <li>Estudio 2</li>
-                </ul>
-
-                <div class="section-title">Antecedentes Laborales</div>
-                <ul>
-                    <li>Trabajo 1</li>
-                    <li>Trabajo 2</li>
-                </ul>
-            </div>
-
+        <div class="col-9">
+            <h2>Nombre Personal Completo</h2>
+            <p>Título Profesional</p>
         </div>
-        <div class="row text-center mt-4 pt-3 border-top">
-            <div class="col-md-4">📞 +56 9 1234 5678</div>
-            <div class="col-md-4">✉️ correo@email.com</div>
-            <div class="col-md-4">📍 Santiago, Chile</div>
+    </div>
+
+    <div class="row g-0">
+
+        <div class="col-4 left">
+            <div class="section-title">Tecnologías</div>
+            <ul>
+                <li>Tecnología 1</li>
+                <li>Tecnología 2</li>
+                <li>Tecnología 3</li>
+                <li>Tecnología 4</li>
+                <li>Tecnología 5</li>
+            </ul>
+
+            <div class="section-title">Cursos</div>
+            <ul>
+                <li>Curso 1</li>
+                <li>Curso 2</li>
+            </ul>
+
+            <div class="section-title">Certificaciones</div>
+            <ul>
+                <li>Certificación 1</li>
+                <li>Certificación 2</li>
+            </ul>
+        </div>
+
+        <div class="col-8 right">
+            <div class="section-title">Antecedentes Académicos</div>
+            <ul>
+                <li>Antecedente 1</li>
+                <li>Antecedente 2</li>
+                <li>Antecedente 3</li>
+            </ul>
+
+            <div class="section-title">Antecedentes Laborales</div>
+            <ul>
+                <li>Antecedente 1</li>
+                <li>Antecedente 2</li>
+                <li>Antecedente 3</li>
+            </ul>
         </div>
 
     </div>
+
+    <div class="row footer">
+        <div class="col-4">📧 email</div>
+        <div class="col-4">📱 123 456 789</div>
+        <div class="col-4">🌐 Redes Sociales</div>
+    </div>
+
+</div>
 </div>
 
 </body>
