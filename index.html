@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CV</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+    background: #eee;
+}
+
+.container-box {
+    background: white;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.section-title {
+    margin-top: 20px;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="container-box p-4">
+
+        <!-- HEADER -->
+        <div class="row align-items-center border-bottom pb-3">
+            <div class="col-md-2 text-center">
+                <img src="foto.jpg" class="foto">
+            </div>
+
+            <div class="col-md-6">
+                <h2>Nombre Completo</h2>
+                <p>Título Profesional</p>
+            </div>
+
+            <!-- CONTACTO ORDENADO -->
+            <div class="col-md-4">
+                <p><strong>📞 Teléfono:</strong> +56 9 1234 5678</p>
+                <p><strong>✉️ Email:</strong> correo@email.com</p>
+                <p><strong>📍 Dirección:</strong> Santiago, Chile</p>
+            </div>
+        </div>
+
+        <!-- CONTENIDO -->
+        <div class="row">
+
+            <!-- IZQUIERDA -->
+            <div class="col-md-4 border-end p-3">
+                <div class="section-title">Tecnologías</div>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+
+                <div class="section-title">Cursos</div>
+                <ul>
+                    <li>Curso 1</li>
+                    <li>Curso 2</li>
+                </ul>
+
+                <div class="section-title">Certificaciones</div>
+                <ul>
+                    <li>Certificación 1</li>
+                </ul>
+            </div>
+
+            <!-- DERECHA -->
+            <div class="col-md-8 p-3">
+                <div class="section-title">Antecedentes Académicos</div>
+                <ul>
+                    <li>Estudio 1</li>
+                    <li>Estudio 2</li>
+                </ul>
+
+                <div class="section-title">Antecedentes Laborales</div>
+                <ul>
+                    <li>Trabajo 1</li>
+                    <li>Trabajo 2</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
